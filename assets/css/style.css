@@ -1,13 +1,14 @@
+/* Applies border-box styling to everything with zero padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set the background color to hex tag #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
-
+/* Adds padding, selects the font-family, sets the header background-color and text color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,17 @@ header {
     color: #ffffff;
 }
 
+/* sets h1 'Horiseon' text size and display type */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Changes the "seo" in Horiseon to a different color in order to differentiate */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Adjusts formatting for the nav bar links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +34,23 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Gets rid of bullet points */
 header nav ul {
     list-style-type: none;
 }
-
+/* sets margin and display type for list items */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets color of hyperlinks on nav bar to white with no text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Setting attributes for the background-image in between the header and main sections */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +60,31 @@ p {
     background-position: center;
 }
 
+/* Sets the website paragraph font-size */
+p {
+    font-size: 16px;
+}
+
+/* floats seo and social media marketing pictures to the left side of the section with a margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats online reputation management photo to the right side of the section with a margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* .content {
+/* Makes the main section share the screen with the aside section*/
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-} */
+}
 
+/* Formats the aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +97,7 @@ p {
 }
 
 .benifit {
-    
+   
 }
 
 .benefit-lead {
